@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
+Scientific Computing Bootcamp
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This bootcamp is designed to help scientists with little to no computing experience work with large datasets and analyze their own data. It is written predominantly in Python with some mentions of R. It is geared towards biologists at Harvard Medical School (HMS) and provides instructions and resources for using O2, the high performance computing cluster provided by HMS.
 
 .. note::
 
