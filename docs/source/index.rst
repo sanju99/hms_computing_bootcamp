@@ -11,6 +11,6 @@ Contents
 --------
 
 .. toctree::
-
-   T01: Command line basics and Anaconda
-   T02: Python for scientific computing
+   :numbered:
+   T01
+   T02
