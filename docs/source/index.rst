@@ -11,6 +11,6 @@ Contents
 --------
 
 .. toctree::
-   :numbered:
+   
    t01
    t02
