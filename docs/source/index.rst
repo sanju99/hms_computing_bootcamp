@@ -12,5 +12,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   T01: Command line basics and Anaconda
+   T02: Python for scientific computing
