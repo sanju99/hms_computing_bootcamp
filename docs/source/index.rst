@@ -12,5 +12,5 @@ Contents
 
 .. toctree::
    :numbered:
-   T01
-   T02
+   t01
+   t02
