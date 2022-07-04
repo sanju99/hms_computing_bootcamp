@@ -1,4 +1,4 @@
-Usage
+T01: Command line basics and Anaconda
 =====
 
 .. _installation:
