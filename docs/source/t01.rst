@@ -1,14 +1,15 @@
 T01: Command line basics and Anaconda
 =====
 
-.. _installation:
+The command line is an interface into which users type text to execute commands. Commands range in complexity from moving files to running publicly available software. Any function that you do using the graphical user interfaces (GUIs, pronounced "goo-wee"), like Finder on Mac or Windows File Explorer, can be done through the command line.  
 
-Command line
-------------
+For Mac users, the command line is an application called **Terminal**. On Windows, it is called the **command prompt**. In the first half of the tutorial, we will learn basic commands for navigating through directories and managing files via the command line. In the second half, we will go through installation of the software **Anaconda**, which provides an interface to use Python and R and manage data science packages.
 
-The command line is an interface into which users type text to execute commands. Commands range in complexity from moving files and searching directories to running publicly available software. Any function that you do using the graphical user interfaces (GUIs, pronounced "goo-wee"), like Finder on Mac or Windows File Explorer, can be done through the command line.  
 
-For Mac users, the command line is an application called **Terminal** that is part of the operating system. On Windows, it is called the **command prompt**. In this tutorial, we will learn basic commands for navigating through directories and managing files via the command line. In the second half, we will go through installation of the software **Anaconda**, which provides an interface to use Python and R and manage data science packages.
+Navigating through directories
+----------------
+
+Directory is a fancy name for a folder. Subdirectories are subfolders. Using the command line, you can easily move through folders on your machine using **paths**, which are like addresses for every file. For example, if I have a file called "test.py" in a folder called "Computing" on my desktop, then its file path is `/users/skulkarni/Desktop/Computing.test.py`. Forward (not backward) slashes are used to separate levels of directories.
 
 .. code-block:: console
 
