@@ -42,23 +42,26 @@ To install Anaconda, click the download button for the appropriate operating sys
    
 The first line downloads a bash script, and the second runs it to create Anaconda on your machine. No matter which way you download it, Anaconda creates a folder in your home directory that can take up considerable space. IT IS NOT ADVISED TO MODIFY ANYTHING IN THIS FOLDER BECAUSE THINGS CAN EASILY BREAK. Leave the modifications to the package installers.
 
-Managing Packages and Environments
+Because O2 is a Linux-based cluster, you will have to use the code above to install Anaconda on it.
+
+Managing Packages
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Packages are groups of functions that are shared between users. We can benefit from the expertise of others and avoid "reinventing the wheel" by writing functions to do things that have already been figured out. The preferred way to install and manage packages is through Anaconda. To install a package, simply execute the following in the command line, where ``package_name`` is the name of your desired package:
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: console
+   conda install package_name
+   
+Anaconda packages are organized into channels. For efficiency, it is best to specify the channel of the desired package, otherwise, Anaconda needs to first search for its location. For example, the bioconda channel contains many packages relevant to biological analysis.
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. code-block:: console
+   conda install -c bioconda samtools
+   
+Samtools is a suite of tools for parsing files of sequence alignments. The easiest way to find the channel of a package is simply to google it to find the Anaconda installation paage. 
 
-.. autoexception:: lumache.InvalidKindError
+Another way to install Python packages is through pip by running ``pip install package_name``. Pip can install more packages than conda and requires less time, but it doesn't check that package versions are compatible with each other, which can cause things to break. It is best to use conda for installing packages as much as possible and resort to pip if conda can not install a given package.
 
-For example:
+If you are interested in reading more about their differences, check out this comparison `article <https://www.anaconda.com/blog/understanding-conda-and-pip>`_.
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+Environments
+----------------
