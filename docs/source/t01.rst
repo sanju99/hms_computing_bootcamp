@@ -8,7 +8,7 @@ Command line
 
 The command line is an interface where users type in text to execute commands. Commands range in complexity from moving files and searching directories to running publicly available software. Any function that you do using the graphical user interfaces (GUIs, pronounced "goo-wee"), like Finder on Mac or Windows File Explorer, can be done through commands entered into the command line.  
 
-For Mac users, the command line is an application called <b>Terminal</b> that is part of the operating system. On Windows, it is called the <b>command prompt</b>. 
+For Mac users, the command line is an application called **Terminal** that is part of the operating system. On Windows, it is called the **command prompt**. 
 
 .. code-block:: console
 
