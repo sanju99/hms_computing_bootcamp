@@ -13,7 +13,7 @@ Directory is a fancy name for a folder. Subdirectories are subfolders. Using the
 
 .. code-block:: console
 
-   (base) % pwd                           # Print Working (current) Directory
+   (base) % pwd                                 # Print Working (current) Directory
    (base) % cd Desktop/Computing                # change Current Directory to Desktop/Computing
    (base) % cd ..                               # move one level higher in the directory tree
    (base) % cd ../../../                        # move three levels higher in the directory tree
