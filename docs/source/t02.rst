@@ -4,14 +4,12 @@ T02: Python Basics
 Why use Python?
 ----------------
 
-Python is a versatile high-level programming language. It is free, unlike MATLAB, and packages are open-source, which means that anybody can use and change Python tools. Python is ideal for manipulating data in dataframes (a type of data table), performing statistical analyses, and creating plots and graphs (including interactive ones). It is also very useful in machine learning and image analysis. 
-
-Python does not interface with computer hardware; it is a language best suited to handling data, and its utility in scientific computing can not be overstated. It is also a good language for programming beginners because of its simple and intuitive syntax. 
+Python is a versatile high-level programming language. It is free, unlike MATLAB, and packages are open-source, which means that anybody can use and change Python tools. Python is ideal for manipulating data in dataframes (a type of data table), performing statistical analyses, and creating plots and graphs (including interactive ones). It is also very useful in machine learning and image analysis. Because of its intuitive and easy-to-read syntax, Python is a good language for programming beginners.
 
 Python vs. R
 ----------------
 
-Many scientists use R for data cleaning and visualization. R is good because it has been optimized for statistical analysis and data visualization. Python is a general-purpose language with more functionality. R is useful for quick-and-dirty analyses imported from packages, but is generally more difficult for writing custom analyses, and it lacks some control....
+Python and R are the languages of choice for data scientists. Many scientists use R for data cleaning and visualization because it has been optimized for statistical analysis and data visualization. Python, on the other hand, is a general-purpose language with more functionality and better suited to writing custom analysis pipelines. Python allows greater flexibility in reading data from different file formats, and....
 
 .. autosummary::
    :toctree: generated
