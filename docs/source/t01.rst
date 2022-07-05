@@ -69,4 +69,14 @@ If you are interested in reading more about their differences, check out this co
 Environments
 ----------------
 
-An environment consists of all the packages that have been installed. The default environment is called the **base** environment. Often when doing multiple projects, it is a good idea to separate your packages into **virtual environments**.
+An environment consists of all the packages that have been installed. The default environment is called the **base** environment. Often when doing multiple projects, it is a good idea to separate your packages into **virtual environments**. Certain packages are only compatible with certain versions of other packages. To minimize the risk of package inconsistencies, you can install everything you need for a given project in one virtual environment. Virtual environments can be made with conda:
+
+.. code-block:: console
+
+   (base) % conda create -n new_env           # creates a new environment called new_env
+   (base) % conda activate new_env            # activate new_env, making its packages available
+   (new_env) % conda list                     # print a list of all packages installed in the current (base) environment.
+   (new_env) % conda deactivate               # deactivate new_env and return to the base environment
+   (base) % conda env list                    # print a list of all available conda environments                 
+   
+The name in parentheses in the command line indicates the current environment. The official `documentation <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>`_ for Anaconda provides a lot more information on managing environments.
