@@ -6,9 +6,9 @@ T01: Command line basics and Anaconda
 Command line
 ------------
 
-The command line is an interface where users type in text to execute commands. Commands range in complexity from moving files and searching directories to running publicly available software. Any function that you do using the graphical user interfaces (GUIs, pronounced "goo-wee"), like Finder on Mac or Windows File Explorer, can be done through commands entered into the command line.  
+The command line is an interface into which users type text to execute commands. Commands range in complexity from moving files and searching directories to running publicly available software. Any function that you do using the graphical user interfaces (GUIs, pronounced "goo-wee"), like Finder on Mac or Windows File Explorer, can be done through the command line.  
 
-For Mac users, the command line is an application called **Terminal** that is part of the operating system. On Windows, it is called the **command prompt**. 
+For Mac users, the command line is an application called **Terminal** that is part of the operating system. On Windows, it is called the **command prompt**. In this tutorial, we will learn basic commands for navigating through directories and managing files via the command line. In the second half, we will go through installation of the software `**Anaconda** anaconda.org`_, which provides an interface to use Python and R and manage data science packages.
 
 .. code-block:: console
 
