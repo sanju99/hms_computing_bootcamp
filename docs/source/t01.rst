@@ -30,7 +30,7 @@ Directory is a fancy name for a folder. Subdirectories are subfolders. Using the
 Getting help
 ----------------
 
-The list above is basic. There are many more complex functions like ``grep`` that can help you parse files. These functions are often significantly faster on command line than in Python or R, so it is useful to get familiar with them. If you don't know how to do a certain function, google it, and you will find many useful hits on StackOverflow and other websites. 
+The list above is basic, and there are many more complex functions like ``grep`` that can help you parse files. These functions are often significantly faster when run on then command line than in Python or R, so it is useful to get familiar with them. If you don't know how to do a certain function, google it, and you will find many useful hits on StackOverflow and other websites. 
 
 Installing Anaconda
 ----------------
@@ -41,7 +41,9 @@ To install Anaconda, click the download button for the appropriate operating sys
 
    wget https://repo.continuum.io/archive/Anaconda3-2022.05-Linux-x86_64.sh
    
-This downloads a bash script, which you can then run with ``bash https://repo.continuum.io/archive/Anaconda3-2022.05-Linux-x86_64.sh`` to create Anaconda. No matter which way you download it, Anaconda creates a folder in your home directory that can take up considerable space. IT IS NOT ADVISED TO MODIFY ANYTHING IN THIS FOLDER BECAUSE THINGS CAN EASILY BREAK. Leave the modifications to the package installers.
+   bash Anaconda3-2022.05-Linux-x86_64.sh 
+   
+The first line downloads a bash script, and the second runs it to create Anaconda on your machine. No matter which way you download it, Anaconda creates a folder in your home directory that can take up considerable space. IT IS NOT ADVISED TO MODIFY ANYTHING IN THIS FOLDER BECAUSE THINGS CAN EASILY BREAK. Leave the modifications to the package installers.
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
