@@ -3,10 +3,12 @@ T01: Command line basics and Anaconda
 
 .. _installation:
 
-Installation
+Command line
 ------------
 
-To use Lumache, first install it using pip:
+The command line is an interface where users type in text to execute commands. Commands range in complexity from moving files and searching directories to running publicly available software. Any function that you do using the graphical user interfaces (GUIs, pronounced "goo-wee"), like Finder on Mac or Windows File Explorer, can be done through commands entered into the command line.  
+
+For Mac users, the command line is an application called <b>Terminal</b> that is part of the operating system. On Windows, it is called the <b>command prompt</b>. 
 
 .. code-block:: console
 
