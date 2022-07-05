@@ -14,10 +14,10 @@ Directory is a fancy name for a folder. Subdirectories are subfolders. Using the
 .. code-block:: console
 
    (base) $ pwd                     # Print Working (current) Directory
-   (base) $ cd Desktop/Computing    # change **c**urrent **d**irectory to Desktop/Computing
+   (base) $ cd Desktop/Computing    # change Current Directory to Desktop/Computing
    (base) $ ls                      # print all files in the current directory
    (base) $ mv <file_1> <file_2>    # move file_1 to file_2. This also renames files
-   (base) $
+   (base) $ mkdir <new_dir>         # create new directory called new_dir
 
 Creating recipes
 ----------------
