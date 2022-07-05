@@ -9,11 +9,15 @@ For Mac users, the command line is an application called **Terminal**. On Window
 Navigating through directories
 ----------------
 
-Directory is a fancy name for a folder. Subdirectories are subfolders. Using the command line, you can easily move through folders on your machine using **paths**, which are like addresses for every file. For example, if I have a file called "test.py" in a folder called "Computing" on my desktop, then its file path is `/users/skulkarni/Desktop/Computing.test.py`. Forward (not backward) slashes are used to separate levels of directories.
+Directory is a fancy name for a folder. Subdirectories are subfolders. Using the command line, you can easily move through folders on your machine using **paths**, which are like addresses for every file. For example, if I have a file called "test.py" in a folder called "Computing" on my desktop, then its file path is ``/users/skulkarni/Desktop/Computing.test.py``. Forward (not backward) slashes are used to separate levels of directories.
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (base) $ pwd                     # Print Working (current) Directory
+   (base) $ cd Desktop/Computing    # change **c**urrent **d**irectory to Desktop/Computing
+   (base) $ ls                      # print all files in the current directory
+   (base) $ mv <file_1> <file_2>    # move file_1 to file_2. This also renames files
+   (base) $
 
 Creating recipes
 ----------------
