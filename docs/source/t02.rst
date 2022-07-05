@@ -9,4 +9,8 @@ Python is a versatile high-level programming language. It is free, unlike MATLAB
 Python vs. R
 ----------------
 
-Python and R are the languages of choice for data scientists. Many scientists use R for data cleaning and visualization because it has been optimized for statistical analysis and data visualization. Python, on the other hand, is a general-purpose language with more functionality and better suited to writing custom analysis pipelines. Python allows greater flexibility in reading data from different file formats, and....
+Python and R are the languages of choice for data scientists. Many scientists use R for data cleaning and visualization because it has been optimized for statistical analysis and data visualization. Python, on the other hand, is a general-purpose language with more functionality and is better suited to writing engineering-based pipelines. Python allows greater flexibility in reading data from different file formats and is easier to customize because of its clear syntax.
+
+>>> import lumache
+>>> lumache.get_random_ingredients()
+['shells', 'gorgonzola', 'parsley']
