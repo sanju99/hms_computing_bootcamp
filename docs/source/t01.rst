@@ -35,7 +35,7 @@ The list above is basic, and there are many more complex functions like ``grep``
 Installing Anaconda
 ----------------
 
-To install Anaconda, click the download button for the appropriate operating system `here https://www.anaconda.com/products/distribution`_ and follow the instructions. If you are using a Linux operating system, then the **wget** command is your friend since there is no GUI like on Mac OS and Windows. For the most recent version of Anaconda as of writing, run the following on the command line:
+To install Anaconda, click the download button for the appropriate operating system `here <https://www.anaconda.com/products/distribution>`_ and follow the instructions. If you are using a Linux operating system, then the **wget** command is your friend since there is no GUI like on Mac OS and Windows. For the most recent version of Anaconda as of writing, run the following on the command line:
 
 .. code-block:: console
 
