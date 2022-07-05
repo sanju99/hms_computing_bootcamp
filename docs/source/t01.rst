@@ -3,7 +3,7 @@ T01: Command line basics and Anaconda
 
 The command line is an interface into which users type text to execute commands. Commands range in complexity from moving files to running publicly available software. Any function that you do using the graphical user interfaces (GUIs, pronounced "goo-wee"), like Finder on Mac or Windows File Explorer, can be done through the command line.  
 
-For Mac users, the command line is an application called **Terminal**. On Windows, it is called the **command prompt**. In the first half of the tutorial, we will learn basic commands for navigating through directories and managing files via the command line. In the second half, we will go through installation of the software **Anaconda**, which provides an interface to use Python and R and manage data science packages.
+For Mac users, the command line is an application called **Terminal**. On Windows, it is called the **command prompt**. In this tutorial, we will learn basic commands for managing files via the command line and install the software **Anaconda**, which provides an interface to use Python and R and manage data science packages.
 
 
 Navigating through directories
@@ -51,13 +51,13 @@ Packages are groups of functions that are shared between users. We can benefit f
 
 .. code-block:: console
 
-   conda install package_name
+   (base) % conda install package_name
    
 Anaconda packages are organized into channels. For efficiency, it is best to specify the channel of the desired package, otherwise, Anaconda needs to first search for its location. For example, the bioconda channel contains many packages relevant to biological analysis.
 
 .. code-block:: console
 
-   conda install -c bioconda samtools
+   (base) % conda install -c bioconda samtools
    
 Samtools is a suite of tools for parsing files of sequence alignments. The easiest way to find the channel of a package is simply to google it to find the Anaconda installation paage. 
 
@@ -69,4 +69,4 @@ If you are interested in reading more about their differences, check out this co
 Environments
 ----------------
 
-An environment consists of all the packages that have been installed. The default environment is called the **base** environment. Often when doing multiple projects, it is a good idea to separate your packages into **virtual environments**. 
+An environment consists of all the packages that have been installed. The default environment is called the **base** environment. Often when doing multiple projects, it is a good idea to separate your packages into **virtual environments**.
