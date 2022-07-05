@@ -9,18 +9,39 @@ For Mac users, the command line is an application called **Terminal**. On Window
 Navigating through directories
 ----------------
 
-Directory is a fancy name for a folder. Subdirectories are subfolders. Using the command line, you can easily move through folders on your machine using **paths**, which are like addresses for every file. For example, if I have a file called "test.py" in a folder called "Computing" on my desktop, then its file path is ``/users/skulkarni/Desktop/Computing.test.py``. Forward (not backward) slashes are used to separate levels of directories.
+Directory is a fancy name for a folder. Subdirectories are subfolders. Using the command line, you can easily move through folders on your machine using **paths**, which are addresses for files. For example, if I have a file called "test.py" in a folder called "Computing" on my desktop, then its file path is ``/users/skulkarni/Desktop/Computing.test.py``. Forward (not backward) slashes are used to separate levels of directories. Some common commands are shown below. ``<>`` symbols are used to set off file or directory names.
 
 .. code-block:: console
 
-   (base) $ pwd                     # Print Working (current) Directory
-   (base) $ cd Desktop/Computing    # change Current Directory to Desktop/Computing
-   (base) $ ls                      # print all files in the current directory
-   (base) $ mv <file_1> <file_2>    # move file_1 to file_2. This also renames files
-   (base) $ mkdir <new_dir>         # create new directory called new_dir
-
-Creating recipes
+   (base) % pwd                           # Print Working (current) Directory
+   (base) % cd Desktop/Computing          # change Current Directory to Desktop/Computing
+   (base) % cd ..                         # move one level higher in the directory tree
+   (base) % cd ../../../                  # move three levels higher in the directory tree
+   (base) % ls                            # print all files in the current directory
+   (base) % cp <file_1> <copy_of_file_1>  # make a copy of file_1 called copy_of_file_1
+   (base) % mv <file_1> <file_2>          # move file_1 to file_2. This also renames files
+   (base) % mkdir <new_dir>               # create new directory called new_dir
+   (base) % rm <file_1>                   # delete file_1
+   (base) % rm -r <old_dir>               # delete directory called old_dir
+   (base) % cat <file_1>                  # print the contents of file_1
+   (base) % head -5 <file_1>              # print the first 5 lines of file_1
+   (base) % tail -2 <file_2>              # print the last 2 lines of file_2
+   
+Getting help
 ----------------
+
+The list above is basic. There are many more complex functions like ``grep`` that can help you parse files. These functions are often significantly faster on command line than in Python or R, so it is useful to get familiar with them. If you don't know how to do a certain function, google it, and you will find many useful hits on StackOverflow and other websites. 
+
+Installing Anaconda
+----------------
+
+To install Anaconda, click the download button for the appropriate operating system `here https://www.anaconda.com/products/distribution`_ and follow the instructions. If you are using a Linux operating system, then the **wget** command is your friend since there is no GUI like on Mac OS and Windows. For the most recent version of Anaconda as of writing, run the following on the command line:
+
+.. code-block:: console
+
+   wget https://repo.continuum.io/archive/Anaconda3-2022.05-Linux-x86_64.sh
+   
+This downloads a bash script, which you can then run with ``bash https://repo.continuum.io/archive/Anaconda3-2022.05-Linux-x86_64.sh`` to create Anaconda. No matter which way you download it, Anaconda creates a folder in your home directory that can take up considerable space. IT IS NOT ADVISED TO MODIFY ANYTHING IN THIS FOLDER BECAUSE THINGS CAN EASILY BREAK. Leave the modifications to the package installers.
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
