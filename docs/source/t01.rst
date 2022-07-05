@@ -27,10 +27,7 @@ Directory is a fancy name for a folder. Subdirectories are subfolders. Using the
    (base) % head -5 file_1.txt                  # print the first 5 lines of file_1
    (base) % tail -2 file_2.txt                  # print the last 2 lines of file_2
    
-Getting help
-----------------
-
-The list above is basic, and there are many more complex functions like ``grep`` that can help you parse files. These functions are often significantly faster when run on then command line than in Python or R, so it is useful to get familiar with them. If you don't know how to do a certain function, google it, and you will find many useful hits on StackOverflow and other websites. 
+The list above is not exhaustive, and there are many more complex functions like ``grep`` that can help you parse files. These functions are often significantly faster when run on the command line than in Python or R, so it is useful to get familiar with them.
 
 Installing Anaconda
 ----------------
@@ -44,6 +41,7 @@ To install Anaconda, click the download button for the appropriate operating sys
    (base) % bash Anaconda3-2022.05-Linux-x86_64.sh 
    
 The first line downloads a bash script, and the second runs it to create Anaconda on your machine. No matter which way you download it, Anaconda creates a folder in your home directory that can take up considerable space. IT IS NOT ADVISED TO MODIFY ANYTHING IN THIS FOLDER BECAUSE THINGS CAN EASILY BREAK. Leave the modifications to the package installers.
+
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
