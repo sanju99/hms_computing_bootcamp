@@ -47,14 +47,16 @@ Because O2 is a Linux-based cluster, you will have to use the code above to inst
 Managing Packages
 ----------------
 
-Packages are groups of functions that are shared between users. We can benefit from the expertise of others and avoid "reinventing the wheel" by writing functions to do things that have already been figured out. The preferred way to install and manage packages is through Anaconda. To install a package, simply execute the following in the command line, where ``package_name`` is the name of your desired package:
+Packages are groups of functions that are shared between users. We can benefit from the expertise of others and avoid writing code to do functions that have already been done. The preferred way to install and manage packages is through Anaconda. To install a package, simply execute the following in the command line, where ``package_name`` is the name of your desired package:
 
 .. code-block:: console
+
    conda install package_name
    
 Anaconda packages are organized into channels. For efficiency, it is best to specify the channel of the desired package, otherwise, Anaconda needs to first search for its location. For example, the bioconda channel contains many packages relevant to biological analysis.
 
 .. code-block:: console
+
    conda install -c bioconda samtools
    
 Samtools is a suite of tools for parsing files of sequence alignments. The easiest way to find the channel of a package is simply to google it to find the Anaconda installation paage. 
