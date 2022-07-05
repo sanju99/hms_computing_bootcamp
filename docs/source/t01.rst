@@ -61,9 +61,12 @@ Anaconda packages are organized into channels. For efficiency, it is best to spe
    
 Samtools is a suite of tools for parsing files of sequence alignments. The easiest way to find the channel of a package is simply to google it to find the Anaconda installation paage. 
 
-Another way to install Python packages is through pip by running ``pip install package_name``. Pip can install more packages than conda and requires less time, but it doesn't check that package versions are compatible with each other, which can cause things to break. It is best to use conda for installing packages as much as possible and resort to pip if conda can not install a given package.
+Another way to install Python packages is through pip by running ``pip install package_name``. Pip can install more packages than conda and requires less time, but it doesn't check that package versions are compatible with each other, which can cause things to break. It is best to use conda as much as possible and resort to pip if conda can not install a given package.
 
 If you are interested in reading more about their differences, check out this comparison `article <https://www.anaconda.com/blog/understanding-conda-and-pip>`_.
 
+
 Environments
 ----------------
+
+An environment consists of all the packages that have been installed. The default environment is called the **base** environment. Often when doing multiple projects, it is a good idea to separate your packages into **virtual environments**. 
