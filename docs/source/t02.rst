@@ -10,8 +10,3 @@ Python vs. R
 ----------------
 
 Python and R are the languages of choice for data scientists. Many scientists use R for data cleaning and visualization because it has been optimized for statistical analysis and data visualization. Python, on the other hand, is a general-purpose language with more functionality and better suited to writing custom analysis pipelines. Python allows greater flexibility in reading data from different file formats, and....
-
-.. autosummary::
-   :toctree: generated
-
-   lumache
