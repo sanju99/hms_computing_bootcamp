@@ -15,35 +15,17 @@ Arithmetic and Object Types
 ----------------
 
 Basic arithmetic can be easily performed in Python using the following operators:
-     
-.. list-table::
-   :widths: 10, 5
-   :header-rows: 0
-
-   * - addition
-     - subtraction
-     - multiplication
-     - division
-     - exponentiation
-     - modulo
-   * - Row 1, column 1
-     - 1
-     - Row 1, column 3
-     - 3
-     - 3
-     - 4
-     
-     
+         
 .. list-table::
    :widths: 10 5
    :header-rows: 0
 
    * - addition
-     - +
+     - "+"
    * - subtraction
-     - -
+     - "-"
    * - multiplication
-     - *
+     - "*"
    * - division
      - /
   
