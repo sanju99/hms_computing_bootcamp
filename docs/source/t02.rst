@@ -35,12 +35,18 @@ The operations follow standard order of operations, like in the rest of mathemat
    
 Python objects have different types. The main types are integers, floats, lists, arrays, and strings. Floating point numbers are decimals. If you convert a float to an integer, it will be rounded:
 
->>>int(4.3)
+>>> int(4.3)
 
 Strings are sequences of characters, usually words. When added together, two strings are concatenated:
 
 >>> 'Hello' + ' world'
 
-The other operations can not be performed on strings because they don't make sense.
+The other operations can not be performed on strings because they don't make sense. We can see the type of an object using the `type` function. Functions are called with arguments (inputs) inside parentheses like so:
+
+>>> type('hi!')
+
+>>> type(15.8)
+
+>>> type(10)
 
 Lists and arrays
