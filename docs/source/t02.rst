@@ -32,6 +32,18 @@ Basic arithmetic can be easily performed in Python using the following operators
      - 3
      - 3
      - 4
+     
+     
+ .. list-table:: Title
+   :widths: 10, 5
+   :header-rows: 1
+
+   * - Heading row 1
+     - Heading row 1
+     - Heading row 1
+   * - Row 1
+     -
+     - Row 1
   
 The operations follow standard order of operations, like in the rest of mathematics. For example:
 
