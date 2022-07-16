@@ -45,7 +45,7 @@ The operations follow standard order of operations, like in the rest of mathemat
    >>> (2 + 3) * 4 - 5**2
    -5
    
-If you run the code above, the values are shown. If you run multiple lines in the same code cell, you must use the ``print()`` function to view them all. If not, only the last output is shown
+If you run the code above, the values are shown. If you run multiple lines in the same code cell, you must use the ``print()`` function to view them all. If not, only the last output is shown. Functions are called with arguments (inputs) inside parentheses like so:
 
 .. doctest::
 
@@ -70,7 +70,7 @@ Strings are sequences of characters, usually words. When added together, two str
 >>> 'Hello' + ' world'
 'Hello world'
 
-The other operations can not be performed on strings because they don't make sense. We can see the type of an object using the ``type`` function. Functions are called with arguments (inputs) inside parentheses like so:
+The other operations can not be performed on strings because they don't make sense. We can see the type of an object using the ``type()`` function.
 
 >>> type('hi!')
 str
@@ -88,7 +88,7 @@ Lists and arrays are objects that store multiple elements. A list can contain el
 
 >>> my_list = [1, 2, 'apple']
 
-Here, I have created a list with three integers in it. We can call the ``type`` function on it. 
+Here, I have created a list with three integers in it. We can call the ``type()`` function on it. 
 
 >>> type(my_list)
 list
