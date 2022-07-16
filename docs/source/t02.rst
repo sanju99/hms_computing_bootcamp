@@ -4,13 +4,47 @@ T02: Python Basics
 Why use Python?
 ----------------
 
-Python is a versatile high-level programming language. It is free, unlike MATLAB, and packages are open-source, which means that anybody can use and change Python tools. Python is ideal for manipulating data in dataframes, performing statistical analyses, and creating plots and graphs (including interactive ones). It is also very useful in machine learning and image analysis. Because of its intuitive and easy-to-read syntax, Python is a good language for programming beginners.
+Python is a versatile high-level programming language. It is free, unlike MATLAB, and packages are open-source, which means that anybody can use and create Python tools. Python is ideal for manipulating data in dataframes, performing statistical analyses, and creating plots and graphs (including interactive ones). It is also very useful in machine learning and image analysis. Because of its intuitive and easy-to-read syntax, Python is a good language for programming beginners.
 
 Python vs. R
 ----------------
 
-Python and R are the languages of choice for data scientists. Many scientists use R for data cleaning and visualization because it has been optimized for statistical analysis and data visualization. Python, on the other hand, is a general-purpose language with more functionality and is better suited to writing engineering-based pipelines. Python allows greater flexibility in reading data from different file formats and is easier to customize because of its clear syntax.
+Python and R are the languages of choice for data scientists. Many scientists use R for data cleaning and visualization because it has been optimized for statistical analysis and data visualization. Python, on the other hand, is a general-purpose language with more functionality and is better suited to writing engineering-based pipelines. Python allows greater flexibility in reading data from different file formats and is easier to customize because of its clear syntax. I prefer to use Python and have therefore chosen to write this bootcamp in it. There will be some mentions of easy-to-use features in R, such as plotting phylogenetic trees and running linear models. 
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+Arithmetic, Types, Lists, and Arrays
+----------------
+
+Basic arithmetic can be easily performed in Python using the following operators:
+
+.. list-table:: 
+   :widths: 10, 5
+   :header-rows: 0
+
+   * - addition, +
+   * - subtraction, -
+   * - multiplication, *
+   * - division, /
+   * - exponentiation, **
+   * - modulo, %
+   
+The operations follow standard order of operations, like in the rest of mathematics. For example:
+
+>>> 2 + 3 * 4 - 5**2
+>>> -11
+
+>>> (2 + 3) * 4 - 5**2
+>>> -5
+   
+Python objects have different types. The main types are integers, floats, lists, arrays, and strings. Floating point numbers are decimals. If you convert a float to an integer, it will be rounded:
+
+>>>int(4.3)
+>>>4
+
+Strings are sequences of characters, usually words. When added together, two strings are concatenated:
+
+>>> 'Hello' + ' world'
+>>> 'Hello world'
+
+The other operations can not be performed on strings because they don't make sense.
+
+Lists and arrays
