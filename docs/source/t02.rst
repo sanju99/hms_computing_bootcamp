@@ -21,13 +21,13 @@ Basic arithmetic can be easily performed in Python using the following operators
    :header-rows: 0
 
    * - addition
-     - "+"
+     - \+\
    * - subtraction
-     - "-"
+     - \-\
    * - multiplication
-     - "*"
+     - \*\
    * - division
-     - /
+     - \/\
   
 The operations follow standard order of operations, like in the rest of mathematics. For example:
 
