@@ -45,7 +45,7 @@ The operations follow standard order of operations, like in the rest of mathemat
    >>> (2 + 3) * 4 - 5**2
    -5
    
-If you run the code above, the values are shown. If you run multiple lines in the same code cell, you must use the `print()` function to view them all. If not, only the last output is shown
+If you run the code above, the values are shown. If you run multiple lines in the same code cell, you must use the ``print()`` function to view them all. If not, only the last output is shown
 
 .. doctest::
 
@@ -70,7 +70,7 @@ Strings are sequences of characters, usually words. When added together, two str
 >>> 'Hello' + ' world'
 'Hello world'
 
-The other operations can not be performed on strings because they don't make sense. We can see the type of an object using the `type` function. Functions are called with arguments (inputs) inside parentheses like so:
+The other operations can not be performed on strings because they don't make sense. We can see the type of an object using the ``type`` function. Functions are called with arguments (inputs) inside parentheses like so:
 
 >>> type('hi!')
 str
@@ -84,16 +84,16 @@ int
 Variables, Lists/Arrays, and Indexing
 ----------------
 
-Lists and arrays are objects that store multiple elements. A list can contain elements of different types, but an array can only have elements with the same type. Arrays are most commonly created using the :code:numpy (pronounced num-pie) package. A variable is a symbolic name used to store an object. To create a variable, simply assign an object to a name:
+Lists and arrays are objects that store multiple elements. A list can contain elements of different types, but an array can only have elements with the same type. Arrays are most commonly created using the ``numpy`` (pronounced num-pie) package. A variable is a symbolic name used to store an object. To create a variable, simply assign an object to a name:
 
 >>> my_list = [1, 2, 'apple']
 
-Here, I have created a list with three integers in it. We can call the :code:type function on it. 
+Here, I have created a list with three integers in it. We can call the ``type`` function on it. 
 
 >>> type(my_list)
 list
 
-To create a numpy array, first import the numpy package, then create the array. The :code:numpy package is usually assigned to a short form `np`. 
+To create a numpy array, first import the numpy package, then create the array. The ``numpy`` package is usually assigned to a short form `np`. 
 
 >>> import numpy as np
 >>> my_array = np.array([1, 2, 3])
