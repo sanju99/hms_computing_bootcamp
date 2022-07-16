@@ -81,7 +81,7 @@ float
 >>> type(10)
 int
 
-Variables, Lists/Arrays, and Indexing
+Variables, Lists, and Array
 ----------------
 
 Lists and arrays are objects that store multiple elements. A list can contain elements of different types, but an array can only have elements with the same type. Arrays are most commonly created using the ``numpy`` (pronounced num-pie) package. A variable is a symbolic name used to store an object. To create a variable, simply assign an object to a name:
@@ -99,3 +99,25 @@ To create a numpy array, first import the numpy package, then create the array. 
 >>> my_array = np.array([1, 2, 3])
 >>> type(my_array)
 np.ndarray
+
+
+Indexing
+----------------
+
+Python uses *0-indexing*. This means that the first element in a list or array is at position 0. In a list of 10 elements, the last element is at position 9. We use indexing to extract elements at particular positions.
+
+>>> my_list[0]
+1
+
+>>> my_list[2]
+'apple'
+
+Indexing can also run in the reverse direction. The index -1 is the last element, -2 is the second to last element, and so on and so forth. So we can get the last element using indices -1 or 2.
+
+>>> my_list[-1]
+'apple'
+
+>>> my_list[-3]
+1
+
+You can also get multiple elements at a time, instead of just one. This is done using *slicing*.
