@@ -62,8 +62,7 @@ If you run the code above, the values are shown. If you run multiple lines in th
    
 Python objects have different types. The main types are integers, floats, lists, arrays, and strings. Floating point numbers are decimals. If you convert a float to an integer, it will be rounded:
 
->>> print(int(4.3))
-4
+>>> int(4.3) # doctest: +SKIP
 
 Strings are sequences of characters, usually words. When added together, two strings are concatenated:
 
