@@ -31,7 +31,7 @@ The operations follow standard order of operations, like in the rest of mathemat
 
 .. doctest::
 
-    >>> print(2 + 3 * 4 - 5**2 
+    >>> print(2 + 3 * 4 - 5**2)
     >>> print((2 + 3) * 4 - 5**2)
     
    
