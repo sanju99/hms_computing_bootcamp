@@ -5,13 +5,13 @@ build:
   tools:
     python: "3.9"
 
-# python:
-#   version: 3.9
-#   # Install our python package before building the docs
-#   install:
-#     - method: pip
-#     - path: docs/requirements.txt
-#     - requirements: docs/requirements.txt
+python:
+  version: "3.9"
+  # Install our python package before building the docs
+  install:
+    - method: pip
+    - path: docs/requirements.txt
+    - requirements: docs/requirements.txt
 
 formats:
   - pdf
