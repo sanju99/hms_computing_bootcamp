@@ -33,6 +33,21 @@ Basic arithmetic can be easily performed in Python using the following operators
      - /
      - **
      - %
+     
+     
+.. list-table::
+   :widths: 10, 5, 5
+   :header-rows: 0
+
+   * - addition
+     - subtraction
+     - multiplication
+     - division
+     - exponentiation
+     - modulo
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
   
 The operations follow standard order of operations, like in the rest of mathematics. For example:
 
