@@ -34,6 +34,14 @@ The operations follow standard order of operations, like in the rest of mathemat
     >>> print(2 + 3 * 4 - 5**2)
     >>> print((2 + 3) * 4 - 5**2)
     
+    
+.. testcode::
+
+   print(2+2)  # this will give output
+
+.. testoutput::
+
+   4    
    
 Python objects have different types. The main types are integers, floats, lists, arrays, and strings. Floating point numbers are decimals. If you convert a float to an integer, it will be rounded:
 
