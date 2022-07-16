@@ -34,9 +34,9 @@ Basic arithmetic can be easily performed in Python using the following operators
      - 4
      
      
-.. list-table:: Title
-   :widths: 25 25 50
-   :header-rows: 1
+.. list-table::
+   :widths: 10 5 5
+   :header-rows: 0
 
    * - Heading row 1, column 1
      - Heading row 1, column 2
