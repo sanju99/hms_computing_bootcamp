@@ -4,7 +4,11 @@ T02: Python Basics
 Why use Python?
 ----------------
 
+<<<<<<< HEAD
 Python is a versatile high-level programming language. It is free, unlike MATLAB, and packages are open-source, which means that anybody can use and create Python tools. Python is ideal for manipulating data in dataframes, performing statistical analyses, and creating plots and graphs (including interactive ones). It is also very useful in machine learning and image analysis. Because of its intuitive and easy-to-read syntax, Python is a good language for programming beginners.
+=======
+Python is a versatile high-level programming language. It is free, unlike MATLAB, and packages are open-source, which means that anybody can use and change Python tools. Python is ideal for manipulating data in dataframes (a type of data table), performing statistical analyses, and creating plots and graphs (including interactive ones). It is also very useful in machine learning and image analysis. Because of its intuitive and easy-to-read syntax, Python is a good language for programming beginners.
+>>>>>>> parent of 96f3216 (Update t02.rst)
 
 Python vs. R
 ----------------
