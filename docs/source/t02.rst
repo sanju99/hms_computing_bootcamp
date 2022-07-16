@@ -28,6 +28,10 @@ Basic arithmetic can be easily performed in Python using the following operators
      - \*\
    * - division
      - \/\
+   * - exponentiation
+     - \**\
+   * - modulo
+     - \%\
   
 The operations follow standard order of operations, like in the rest of mathematics. For example:
 
