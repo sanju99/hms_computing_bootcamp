@@ -11,6 +11,6 @@ Contents
 --------
 
 .. toctree::
-   
+   :maxdepth: 1
    t01
    t02
