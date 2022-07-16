@@ -37,32 +37,48 @@ The operations follow standard order of operations, like in the rest of mathemat
 
 .. doctest::
 
-    >>> print(2 + 3 * 4 - 5**2)
-    >>> print((2 + 3) * 4 - 5**2)
-    
-    
-.. testcode::
+   >>> 2 + 3 * 4 - 5**2
+   -11
+   
+.. doctest::
 
-   print(2+2)  # this will give output
+   >>> (2 + 3) * 4 - 5**2
+   -5
+   
+If you run the code above, the values are shown. If you run multiple lines in the same code cell, you must use the `print()` function to view them all. If not, only the last output is shown
 
-.. testoutput::
+.. doctest::
 
-   4    
+   >>> 2 + 3 * 4 - 5**2
+   >>> (2 + 3) * 4 - 5**2
+   -5
+   
+.. doctest::
+
+   >>> print(2 + 3 * 4 - 5**2)
+   >>> print((2 + 3) * 4 - 5**2)
+   -11
+   -5
    
 Python objects have different types. The main types are integers, floats, lists, arrays, and strings. Floating point numbers are decimals. If you convert a float to an integer, it will be rounded:
 
 >>> print(int(4.3))
+4
 
 Strings are sequences of characters, usually words. When added together, two strings are concatenated:
 
 >>> 'Hello' + ' world'
+'Hello world'
 
 The other operations can not be performed on strings because they don't make sense. We can see the type of an object using the `type` function. Functions are called with arguments (inputs) inside parentheses like so:
 
 >>> type('hi!')
+str
 
 >>> type(15.8)
+float
 
 >>> type(10)
+int
 
 Lists and arrays are objects that store 
