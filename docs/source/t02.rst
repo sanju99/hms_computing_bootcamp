@@ -11,7 +11,7 @@ Python vs. R
 
 Python and R are the languages of choice for data scientists. Many scientists use R for data cleaning and visualization because it has been optimized for statistical analysis and data visualization. Python, on the other hand, is a general-purpose language with more functionality and is easier to customize because of its clear syntax. I prefer to use Python and have therefore chosen to write this bootcamp in it. There will be some mentions of easy-to-use features in R, such as plotting phylogenetic trees and running linear models. 
 
-Arithmetic, Types, Lists, and Arrays
+Arithmetic and Object Types
 ----------------
 
 Basic arithmetic can be easily performed in Python using the following operators:
@@ -28,11 +28,6 @@ Basic arithmetic can be easily performed in Python using the following operators
    * - modulo, %
    
 The operations follow standard order of operations, like in the rest of mathematics. For example:
-
-.. code-block:: python
-   :linenos: 1
-
-   2 + 3 * 4 - 5**2
    
 >>> 2 + 3 * 4 - 5**2
 
