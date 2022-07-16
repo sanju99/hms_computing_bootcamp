@@ -35,18 +35,15 @@ Basic arithmetic can be easily performed in Python using the following operators
      
      
 .. list-table::
-   :widths: 10 5 5
+   :widths: 10 5
    :header-rows: 0
 
    * - Heading row 1, column 1
      - Heading row 1, column 2
-     - Heading row 1, column 3
    * - Row 1, column 1
      -
-     - Row 1, column 3
    * - Row 2, column 1
      - Row 2, column 2
-     - Row 2, column 3
   
 The operations follow standard order of operations, like in the rest of mathematics. For example:
 
