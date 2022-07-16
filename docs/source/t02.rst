@@ -36,7 +36,7 @@ Basic arithmetic can be easily performed in Python using the following operators
      
      
 .. list-table::
-   :widths: 10, 5, 5
+   :widths: 10, 5
    :header-rows: 0
 
    * - addition
