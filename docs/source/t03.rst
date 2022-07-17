@@ -9,7 +9,6 @@ Dataframes are tables that represent data in an easy-to-read two-dimensional for
 >>> import pandas as pd
 >>> import numpy as np
 
-From there, we can create and modify dataframes with functions called with ``pd.func()``, where ``func()`` is an arbitrary function. Let's start by reading in a dataset and doing some basic manipulations. This will also require ``numpy`` functions, so make sure this package is also installed, like above.
+From there, we can create and modify dataframes with functions from the package. Let's start by reading in a dataset and doing some basic manipulations. This will also require ``numpy`` functions, so make sure this package is also installed, like above.
 
 Pandas can read in data in many formats -- comma-separated (CSV), tab-separated (TSV), Excel, XML, etc. The most common ones you will use are probably CSV and Excel. Make sure you have the most up to date version of ``pandas`` because the ``read_excel`` file was added recently.
-
